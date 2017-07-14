@@ -121,7 +121,7 @@ As of v2.0.0, there are a total of five Toro-specific hooks (callbacks):
 
 // Fired for 404 errors; must be defined before Toro::serve() call
 ToroHook::add("404",  function() {});
-
+//i edited this just now, you dont need to merge
 // Before/After callbacks in order
 ToroHook::add("before_request", function() {});
 ToroHook::add("before_handler", function() {});
